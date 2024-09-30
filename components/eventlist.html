@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../Frontend/eventlist.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body style="background-image: url(../images/sky.jpg);">
+    <select name="" id="eventname" class="form-control w-25 m-4">
+        <option value="" selected>Choose event</option>
+        <option value="">scavenger</option>
+        <option value="">stranger</option>
+        <option value="">comedy</option>
+    </select>
+    <ul id="participants" style="color: white;"></ul>
+    <input class="form-control w-25 m-3" id="usn" type="text" placeholder="Enter USN">
+    <button class="btn btn-primary m-4" id="delete">Delete</button>
+    <input class="form-control w-25 m-3" id="myusn" type="text" placeholder="Enter updated usn">
+    <input class="form-control w-25 m-3" id="newname" type="text" placeholder="Enter updated name">
+    <button class="btn btn-primary m-4" id="update">Update</button>
+</body>
+</html>

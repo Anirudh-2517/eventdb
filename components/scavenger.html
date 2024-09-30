@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../Frontend/scavenger.js"></script>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../myStyles/registration.css">
+</head>
+<body>
+    <div class="box">
+    <h1><b>Scavenger Hunt</b></h1><br>
+    <h3>Fill this form with required credetials</h3><br>
+    <input class="form-control w-50 m-2" id="scavengerusn" style="margin: 20px;" type="text" placeholder="Enter your USN">
+    <input class="form-control w-50 m-2" id="scavengername" style="margin: 20px;" type="text" placeholder="Enter your name">
+    <input class="form-control w-50 m-2" id="scavengeremail" style="margin: 20px;" type="email" placeholder="Enter your E-mail id">
+    <select id="scavengersem" class="form-select w-50 m-2" style="margin: 20px;">
+        <option selected>Semester</option>
+        <option>1st</option>
+        <option>2nd</option>
+        <option>3rd</option>
+        <option>4th</option>
+        <option>5th</option>
+        <option>6th</option>
+        <option>7th</option>
+        <option>8th</option>
+    </select>
+    <select id="scavengerbranch" class="form-select w-50 m-2" style="margin: 20px;">
+        <option selected>Branch</option>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>MECH</option>
+        <option>CIVIL</option>
+        <option>AIDS</option>
+    </select>
+    <button id="scavengerregister" class="btn btn-danger m-2">Register Now !!</button>
+    <button id="logout" class="btn btn-primary m-2">Back To Home Page</button>
+</div>
+</body>
+</html>

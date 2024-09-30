@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../myScripts/register.js"></script>
+    <link rel="stylesheet" href="../myStyles/beautify.css">
+</head>
+<body>
+    <div class="box">
+    <h1 style="color: rgb(188, 67, 37); text-align: center;margin-bottom: 30px;"><b>Event Registration Form</b></h1>
+    <input class="form-control w-50 m-2" id="usn" style="margin: 20px;" type="text" placeholder="Enter your USN">
+    <input class="form-control w-50 m-2" id="name" style="margin: 20px;" type="text" placeholder="Enter your name">
+    <select id="sem" class="form-select w-50 m-2" style="margin: 20px;">
+        <option selected>Semester</option>
+        <option>1st</option>
+        <option>2nd</option>
+        <option>3rd</option>
+        <option>4th</option>
+        <option>5th</option>
+        <option>6th</option>
+        <option>7th</option>
+        <option>8th</option>
+    </select>
+    <select id="branch" class="form-select w-50 m-2" style="margin: 20px;">
+        <option selected>Branch</option>
+        <option>CSE</option>
+        <option>AIDS</option>
+        <option>CSBS</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>MECH</option>
+        <option>CIVIL</option>
+    </select>
+    <select id="event" class="form-select w-50 m-2" style="margin: 20px;">
+        <option selected>Event Name</option>
+        <option>Treasure Hunt</option>
+        <option>Quiz</option>
+        <option>E-Gaming</option>
+        <option>Fashion Show</option>
+        <option>Strangely Familiar</option>
+    </select>
+    <button id="register" class="btn btn-danger m-2">Register Now !!</button>
+    <ul id="allRegistrations" class="list-group m-2" style="list-style: none;"></ul>
+    <button id="logout" class="btn btn-danger m-2">Logout</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../myStyles/home.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../Frontend/home.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body style="background-image: url(../images/sky.jpg);">
+    <button class="tablink" onclick="openPage('Home', this, 'rgb(0,0,0)')"><b>Events</b></button>
+    <button class="tablink" onclick="openPage('News', this, 'rgb(0,0,0)')"><b>Event Info</b></button>
+    <button class="tablink" onclick="openPage('Contact', this, 'rgb(0,0,0)')"><b>Contact</b></button>
+    <button class="tablink" onclick="openPage('About', this, 'rgb(0,0,0)')"><b>About Us</b></button>
+    
+    <div id="Home" class="tabcontent">
+      <h1 style="text-align: left; padding-left: 200px;">Events</h1>
+      <ul style="list-style-type: none;">
+        <li><a href="../components/scavenger.html" style="color: rgb(255, 255, 255); text-decoration: none;"><img width="70%" height="150px" src="../images/hunt1.jpg" alt="hunt image"></a></li><br>
+        <li><a href="../components/strangely.html" style="color: rgb(255, 255, 255); text-decoration: none;"><img width="70%" height="150px" src="../images/fam.jpg" alt="fam image"></a></li><br>
+        <li><a href="../components/comedy.html" style="color: rgb(255, 255, 255); text-decoration: none;"><img width="70%" height="200px" src="../images/com.jpg" alt="fam image"></a></li>
+      </ul>
+    </div>
+    
+    <div id="News" class="tabcontent">
+      <h3 style="text-align: left; padding-left: 200px;"><b>Event Info</b></h3>
+      <ul style="list-style-type: none;">
+        <li><a href="./scavenger1.html" style="color: rgb(255, 255, 255); text-decoration: none;"><img width="70%" height="150px" src="../images/hunt1.jpg" alt="hunt image"></a></li><br>
+        <li><a href="./stranger1.html" style="color: rgb(255, 255, 255); text-decoration: none;"><img width="70%" height="150px" src="../images/fam.jpg" alt="fam image"></a></li><br>
+        <li><a href="./comedy1.html" style="color: rgb(255, 255, 255); text-decoration: none;"><img width="70%" height="200px" src="../images/com.jpg" alt="fam image"></a></li>
+      </ul>
+    </div>
+    
+    <div id="Contact" class="tabcontent">
+      <h3 style="text-align: center;">Contact</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+      <p>Follow us on Instagram <br> 
+        Facebook <br>
+        Linkedin <br> 
+      </p>
+    </div>
+    
+    <div id="About" class="tabcontent">
+      <h3 style="text-align: center;"><b>About</b></h3>
+      <p>In today's new environment, we have had to learn how to manage not only our in-person events but our virtual programs as well. Virtual event management requires the same steps as managing your in-person event, but with the added challenge of making sure that your content is twice as captivating. While in-person events have the added bonus of travel, networking, and free food, a virtual event largely relies on its content to keep attendees engaged. When managing a virtual event, make sure that your speakers are prepared to present their content virtually, and that your content is interesting and succinct. </p>
+    </div> 
+</body>
+</html>

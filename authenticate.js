@@ -1,4 +1,5 @@
 $(function(){
+    alert("Hello")
     $("#login").on("click",function(){
         let username=$("#username").val()
         let password=$("#password").val()
